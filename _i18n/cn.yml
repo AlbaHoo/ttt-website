@@ -1,0 +1,73 @@
+# Site settings
+title: 公司名字
+email: dqh725@gmail.com
+description: "公司简介"
+
+# services
+services: 服务
+portfolio:  投资机会
+about: 关于我们
+team: 团队
+contact: 联系我们
+
+product:
+- name: 产品
+- name: 产品
+- name: 产品
+
+# Team names, titles and social links
+people:
+- name: 员工
+  pic: 1
+  position: 职务
+  social:
+    - title: 微信
+      url: #
+    - title: QQ
+      url: #
+    - title: 微博
+      url: #
+
+- name: 员工
+  pic: 2
+  position: 职务
+  social:
+    - title: 微信
+      url: #
+    - title: QQ
+      url: #
+    - title: 微博
+      url: #
+
+- name: 员工
+  pic: 3
+  position: 职务
+  social:
+    - title: 微信
+      url: #
+    - title: QQ
+      url: #
+    - title: 微博
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
