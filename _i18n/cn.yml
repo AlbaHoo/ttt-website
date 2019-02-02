@@ -1,19 +1,50 @@
 # Site settings
-title: 公司名字
+title: 十体科技
 email: dqh725@gmail.com
-description: "公司简介"
+description: 公司简介
+intro-lead: 科技改变生活
+intro-head: 物联串联世界
+tell-more: 更多
 
 # services
 services: 服务
-portfolio:  投资机会
+portfolio:  投资合作
 about: 关于我们
 team: 团队
 contact: 联系我们
 
-product:
+products:
 - name: 产品
+  icon: fa-shopping-cart
+  description: adsf
 - name: 产品
+  icon: fa-laptop
+  description: adsf
 - name: 产品
+  icon: fa-laptap
+  description: asdf
+
+stories:
+- src: img/about/1.jpg
+  date: 2009-1011
+  subheader: dream begins
+  text: first para
+- src: img/about/2.jpg
+  date: 2009-1011
+  subheader: dream begins
+  text: first para
+  class: timeline-inverted
+- src: img/about/3.jpg
+  date: 2009-1011
+  subheader: dream begins
+  text: first para
+- src: img/about/4.jpg
+  date: 2009-1011
+  subheader: dream begins
+  text: first para
+  class: timeline-inverted
+
+
 
 # Team names, titles and social links
 people:
