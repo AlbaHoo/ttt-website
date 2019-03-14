@@ -5,81 +5,58 @@ description: 公司简介
 intro-lead: 科技改变生活
 intro-head: 物联串联世界
 tell-more: 更多
+investment: 做我们的合伙人
 
 # services
-services: 服务
-portfolio:  投资合作
-about: 关于我们
+services: 产品和服务
+portfolio: 投资合作
+about: 关于十体
 team: 团队
 contact: 联系我们
 
 products:
-- name: 产品
+- name: 自动售货机
   icon: fa-shopping-cart
-  description: adsf
-- name: 产品
+  description: 自动售货机一体化系统，包括主板系统的开发，外壳箱体的个性化定制，后台系统的配套搭建。
+- name: 广告机
   icon: fa-laptop
-  description: adsf
-- name: 产品
+  description: 可移植性的外接系统（十体盒子）帮助您实现不同屏幕的播放管理，只需要通过我们的管理后台网站一站式服务；通过简单便捷系统操作，让您专注于广告运营。
+- name: 其他物联网系统咨询
   icon: fa-laptap
-  description: asdf
+  description: 物联网系统的咨询和潜在的业务合作。
+
 
 stories:
 - src: img/about/1.jpg
-  date: 2009-1011
-  subheader: dream begins
-  text: first para
+  date: 2018.5
+  subheader: 梦想开始的瞬间
+  text: 一个程序员遇到了一个金属加工工程师和一个销售投资顾问，这就是十体小船启航的全体船员。
 - src: img/about/2.jpg
-  date: 2009-1011
-  subheader: dream begins
-  text: first para
+  date: 2018.5 - 2018.12
+  subheader: 深入讨论
+  text: 多次碰面交流再市场上目前的系统复杂性已经广告云端化的技术难度已经这块市场的缺失，同时我们采购对比的多家公司的现有系统，取长补短，提出了一套优化解决方案，万事俱备，只欠东风。
   class: timeline-inverted
-- src: img/about/3.jpg
-  date: 2009-1011
-  subheader: dream begins
-  text: first para
 - src: img/about/4.jpg
-  date: 2009-1011
-  subheader: dream begins
-  text: first para
-  class: timeline-inverted
-
-
+  date: 2019.1-?
+  subheader: 正式启动
+  text: 我们有幸入驻了杭州市滨江区海归创业基地5050计划创业梦工厂孵化园，并且迅速推经，创办了这家十体科技（杭州）有限公司，正式进入系统和产品的研发阶段。
 
 # Team names, titles and social links
 people:
-- name: 员工
+- name: 胡文跃
   pic: 1
-  position: 职务
-  social:
-    - title: 微信
-      url: #
-    - title: QQ
-      url: #
-    - title: 微博
-      url: #
+  position: CTO
+  email: 494547254@qq.com
 
-- name: 员工
+- name: 俞彬
   pic: 2
-  position: 职务
-  social:
-    - title: 微信
-      url: #
-    - title: QQ
-      url: #
-    - title: 微博
-      url: #
+  position: CEO
+  email: 370610798@qq.com
 
-- name: 员工
+- name: 陈晓淼
   pic: 3
-  position: 职务
-  social:
-    - title: 微信
-      url: #
-    - title: QQ
-      url: #
-    - title: 微博
-      url: #
+  position: CFO
+  email: 289567321@qq.com
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

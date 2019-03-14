@@ -8,6 +8,7 @@ $(function() {
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
+            var url = "https://oapi.dingtalk.com/robot/send?access_token=10a0d3c371435b2d454f7799077b8309fb2b6ab17f404092338f53c5469bb79c";
             var name = $("input#name").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
@@ -18,14 +19,10 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: url,
                 type: "POST",
-                data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
-                },
+                contentType: 'application/json',
+                data: messageFormatter(name, email, phone, message),
                 cache: false,
                 success: function() {
                     // Success message
@@ -68,3 +65,19 @@ $(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
+
+function messageFormatter(name, email, phone, message) {
+  return (
+    {
+      "msgtype": "markdown",
+      "markdown": {
+        "title": `收到一条来自${name}的留言！`,
+        "text": `## Email: ${email} \n ## 电话： ${phone} \n ## 消息: ${message}`,
+      },
+      "at": {
+        "atMobiles": [],
+        "isAtAll": true
+      }
+    }
+  );
+}
