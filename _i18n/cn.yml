@@ -9,21 +9,21 @@ investment: 做我们的合伙人
 
 # services
 services: 产品和服务
-portfolio: 投资合作
 about: 关于十体
 team: 团队
 contact: 联系我们
+portal: 登陆管理系统
 
 products:
-- name: 自动售货机
+- name: 自动贩卖机
   icon: fa-shopping-cart
-  description: 自动售货机一体化系统，包括主板系统的开发，外壳箱体的个性化定制，后台系统的配套搭建。
-- name: 广告机
+  description: 自动贩卖机箱体以及后台系统，包括零售管理以及箱体的多媒体内容管理。
+- name: 智能宣传屏幕
   icon: fa-laptop
-  description: 可移植性的外接系统（十体盒子）帮助您实现不同屏幕的播放管理，只需要通过我们的管理后台网站一站式服务；通过简单便捷系统操作，让您专注于广告运营。
-- name: 其他物联网系统咨询
+  description: 可移植性的外接系统（十体盒子）帮助您实现不同屏幕的播放管理，只需要通过我们的管理后台网站一站式服务。
+- name: 其他物联网系统定制
   icon: fa-laptap
-  description: 物联网系统的咨询和潜在的业务合作。
+  description: 物联网系统个性化定制。
 
 
 stories:
@@ -39,7 +39,7 @@ stories:
 - src: img/about/4.jpg
   date: 2019.1-?
   subheader: 正式启动
-  text: 我们有幸入驻了杭州市滨江区海归创业基地5050计划创业梦工厂孵化园，并且迅速推进，创办了这家十体科技（杭州）有限公司，正式进入系统和产品的研发阶段。
+  text: 我们正式入驻了杭州市滨江区海归创业基地5050计划创业梦工厂孵化园，并且创办了这家十体科技有限公司，正式进入系统和产品的研发阶段。
 
 # Team names, titles and social links
 people:
