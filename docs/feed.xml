@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>http://ruo-zhen.com/</link>
+    <atom:link href="http://ruo-zhen.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 23 Mar 2020 12:52:26 +0800</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2020 12:52:26 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+  </channel>
+</rss>
