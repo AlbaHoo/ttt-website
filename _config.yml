@@ -1,0 +1,10 @@
+url: http://ruo-zhen.com
+baseurl: ""
+
+plugins: ["jekyll-multiple-languages-plugin"]
+languages: ["cn"]
+exclude_from_localizations: ["js", "images", "css"]
+
+# Build settings
+markdown: kramdown
+permalink: pretty

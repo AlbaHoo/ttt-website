@@ -1,0 +1,84 @@
+# Site settings
+title: 十体科技
+logo: img/logo.png
+email: dqh725@gmail.com
+description: 公司简介
+intro-lead: 科技改变生活
+intro-head: 物联串联世界
+investment: 做我们的合伙人
+
+# services
+services: 产品和服务
+about: 关于十体
+team: 团队
+contact: 联系我们
+portal: 登陆管理系统
+
+products:
+- name: 自动贩卖机
+  icon: fa-shopping-cart
+  description: 自动贩卖机箱体以及后台系统，包括零售管理以及箱体的多媒体内容管理。
+- name: 智能宣传屏幕
+  icon: fa-laptop
+  description: 可移植性的外接系统（十体盒子）帮助您实现不同屏幕的播放管理，只需要通过我们的管理后台网站一站式服务。
+- name: 其他物联网系统定制
+  icon: fa-laptap
+  description: 物联网系统个性化定制。
+  desc: "十体智能投屏系统是十体科技研发的一款专门为教育而开发的无线展示系统。通过此系统，可以让教室变成屏幕共享的空间的同时还能让师生从数据线的限制中解放出来，通过一系列专门为教育而开发的的功能，比如教室屏锁，画板，实时反馈，投屏权限控制， 提高老师与学生之间的互动，我们的系统可以使每个学生的手机，平板或者电脑成为他们专用的黑板和笔记本，真正的实现了个性化教学。我们为未来的教室和教育提供技术服务。"
+
+stories:
+- src: img/about/1.jpg
+  date: 2019.1
+  subheader: 梦想开始的瞬间
+  text: "十体科技创立于2019年，是由墨尔本大学海归发起并且创立的物联网科技公司，目前入驻了杭州滨江区海外高层次人才创新创业基地。我们致力于把物联技术带入多媒体展示，以互联网技术变革现有的多媒体播放方案，降低多媒体运营的技术壁垒。
+
+我们的团队由拥有多年海外物联网开发管理经验的技术员主导，致力于把国外成熟的无线展示以及投屏系统和智能云屏项目引入中国市场，我们的云屏解决方案充分分析了国内现有系统的普遍缺陷，采用了一站式网页管理以及物联技术和大数据分析帮助多媒体运营商实现跨地域和实时高效的同步播放。我们的方案适合各阶段的多媒体运营商甚至个人，并且将不断的开拓创新，推动我国第三代的互动型数字告示系统的发展。"
+
+- src: img/about/2.jpg
+  date: 2018.5 - 2018.12
+  subheader: 深入讨论
+  text: 多次碰面交流再市场上目前的系统复杂性已经广告云端化的技术难度已经这块市场的缺失，同时我们采购对比的多家公司的现有系统，取长补短，提出了一套优化解决方案，万事俱备，只欠东风。
+  class: timeline-inverted
+- src: img/about/4.jpg
+  date: 2019.1-?
+  subheader: 正式启动
+  text: 我们正式入驻了杭州市滨江区海归创业基地5050计划创业梦工厂孵化园，并且创办了这家十体科技有限公司，正式进入系统和产品的研发阶段。
+
+# Team names, titles and social links
+people:
+- name: 胡文跃
+  pic: 1
+  position: 负责人
+  email: alba@tenty.co
+
+- name: 俞彬
+  pic: 2
+  position: 合伙人
+  email: 370610798@qq.com
+
+- name: 陈晓淼
+  pic: 3
+  position: 合伙人
+  email: 289567321@qq.com
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
